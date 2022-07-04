@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+section{
+    display: flex;
+}
+.first-1{
+    width: 50%;
+}
+.first-2{
+    width: 50%;
+}
+
+.first-2 img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+p{
+    color: lightslategray;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+}
