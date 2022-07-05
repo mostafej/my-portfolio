@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: 'Kanit', sans-serif;
 }
-section{
+.section1{
     display: flex;
     margin-bottom: 10%;
     
@@ -49,5 +49,31 @@ p{
     width: 50%;
     padding-right: 5%;
 
-
+}
+.experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 5%;
+    text-align: justify;
+    ;
+    border-radius: 10px;
+}
+#ex1{
+    border-left: 6px solid rgb(104, 70, 7);
+}
+#ex2{
+    border-left:  6px solid rgb(47, 125, 214);
+}
+footer{
+    text-align: center;
+    color: gray;
+    font-weight: 1000;
+    margin-bottom: 2%;
+}
+.last{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
