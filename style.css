@@ -4,18 +4,20 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 10%;
+    
 }
 .first-1{
     width: 50%;
-}
-.first-2{
-    width: 50%;
+    padding-left: 5%;
+
 }
 
-.first-2 img{
+
+.first-1 img{
     width: 80%;
 }
-h1{
+.header1{
     font-size: 50px;
 }
 span{
@@ -23,8 +25,29 @@ span{
 }
 p{
     color: lightslategray;
+    text-align: justify;
 }
 .button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-2{
+    width: 50%;
+    padding-right: 5%;
+
+
 }
